@@ -1,6 +1,4 @@
 #!/bin/bash
-
-systemctl start httpd
-
+sudo systemctl enable httpd
+sudo systemctl start httpd
 exit 0
-
